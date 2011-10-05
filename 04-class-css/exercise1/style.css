@@ -33,7 +33,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	
 }
 ol, ul {
 	list-style: none;
@@ -53,39 +52,47 @@ table {
 
 
 
+
 body {
 	font-family:helvetica;
-	font-size:14px;
+	font-size:12px;
 	line-height:1.1em;
 }
 
+p {
+	padding:0 0 10px 0;
+}
+
 h1 {
-	font-size:24px;
+	font-size:32px;
 	font-weight:bold;
 	line-height:1.1em;
 }
 
 h2 {
-	font-size:14px;
-	font-color:gray;
-	padding: 0 0 10px 0;
+	color:grey;
+	padding:0 0 15px 0;
 }
 
 #main-content {
 	margin:0 auto;
-	padding:50px 0 0 0 ;
-	width:900px;
+	padding:50px 0 0 0;
+	width:1000px;
 }
 
 article {
 	float:left;
 	width:450px;
+	padding:15px;
 }
 
 img {
 	float:left;
 	width:200px;
-	padding:0 10px 10px 0;
+	padding:0 15px 15px 0;
 }
+
+
+
 
 
