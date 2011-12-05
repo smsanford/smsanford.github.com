@@ -40,8 +40,30 @@ footer, header, hgroup, menu, nav, section {
          url('League_Gothic-webfont.ttf') format('truetype'),
          url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: normal;}
+
+#header, .header_dogs { 
+	font-family:'LeagueGothicRegular';
+	font-size: 2.7em;
 	}
+
+#header, .header_cats { 
+	font-family:'LeagueGothicRegular';
+	font-size: 2.7em;
+	}
+
+.vs {
+	font-family:Georgia;
+	font-style:italic;
+	text-transform:lowercase;
+	color:grey;
+	font-size: .8em;
+	display:inline-block;
+	border-top:4px double;
+	border-bottom:4px double;
+	margin:20px 20px 0 20px;
+	}
+
 
 body {
 	line-height: 1;
@@ -99,10 +121,10 @@ a {
   }
   
 h1 {
-  font-size:1.4em;
-  font-family:bodoni;
+  font-size:1.5em;
   font-weight:bold;
   padding:15px 0 15px 0;
+  font-family: Bodoni;
   }
 
 
@@ -110,30 +132,26 @@ h1 {
 #header {
   position:relative;
   width:960px;
+  height:100px;
   margin-left:257px;
   margin-right:257px;
   padding:20px;
   }
   
-#header h1 {
-	font-family:'LeagueGothicRegular';
-	font-size:4em;
-	text-transform:uppercase;
-	float:left;
-	}
+
 	
 .main-nav {
   border-top-style:solid;
   border-top-width:4px;
   border-bottom-style:solid;
   border-bottom-width:4px;
-  padding:5px;
+  padding:10px;
   text-align:center;
   }
   
 .main-nav ul li {
-  font-family:bodoni;
-  font-size:1.4em;
+  font-family: Bodoni;
+  font-size:1.5em;
   text-transform:uppercase;
   font-weight:bold;
   display:inline;
@@ -149,6 +167,8 @@ h1 {
   width:445px;
   margin:15px;
   }
+  
+
 
 #footer {
   clear:both;
@@ -157,6 +177,7 @@ h1 {
   border-top-width:4px;
   padding:15px 15px 0 15px;
   font-size:.8em;
+  font-family: Georgia;
   }
 
 .right {
@@ -164,6 +185,7 @@ h1 {
   right:0;
   bottom:0;
   padding:0 15px 0 0;
+  font-family: Georgia;
   }
 
 
@@ -197,9 +219,33 @@ h1 {
 		
 		}
 		
-	#header img  {
-	    width:25%;
-		margin-left:-150px;
+#header, .header_dogs { 
+	font-family:'LeagueGothicRegular';
+	font-size: 2.5em;
+	}
+
+#header, .header_cats { 
+	font-family:'LeagueGothicRegular';
+	font-size: 2.5em;
+	}
+
+.vs {
+	font-family:Georgia;
+	font-style:italic;
+	text-transform:lowercase;
+	color:grey;
+	font-size: .7em;
+	display:inline-block;
+	border-top:4px double;
+	border-bottom:4px double;
+	margin: 0 10px 25px 10px;
+	}		
+		
+	#header  {
+	    width:50%;
+	    height:75px;
+	    margin:0 0 0 80px;
+
 		}
 			
 	.main-nav {
