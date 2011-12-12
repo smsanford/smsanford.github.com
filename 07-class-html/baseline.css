@@ -1,0 +1,660 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ////////     CENTER CONTENT    ////////   */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* ////////     CLEARFIX    ////////   */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+#site-wrapper { width:100%; max-width:960px; }
+#header { width:100%; max-width:257.5px; }
+#section { width:46%; float:left; }
+#footer { display:block; }
+
+img { max-width:100%; }
+
+
+	
+#background {
+	background-color:white;
+}
+
+#main-container {
+	position:relative;
+	min-height:100%;
+}
+
+#logo h1 a {
+ display:block;  
+ width:360px; 
+ height:360px;  
+ background:url('images/knot&whimsy_logo.png') no-repeat top left; 
+ text-indent:-9999px;
+ }
+
+#logo {
+	position:absolute;
+	width:150px; height:150px;
+	top:40px; left:35px;
+}
+
+body {
+	margin:0 auto;
+	width: 960px;
+	font-family: 'Mate', serif;
+	background-image:url('images/chevron.jpg');
+		background-size:50px 50px;
+		background-position:top-left;
+		background-repeat:repeat;
+	color: black;
+	font-size: .9em;
+	line-height: 1.3em;
+}
+
+	a {
+		text-decoration: none;
+		text-transform:none;
+		color:black;
+	}
+
+
+
+h1 {
+	font-weight:bold;
+	margin:0 0 10px 0;
+	font-size:1.1em;
+}
+
+#header-wrapper {
+	position:relative;
+	padding: 50px 0 25px 0;
+}
+
+#newsletter {
+	position:absolute;
+	top:0; right:0;
+	width: 220px;
+	margin: 20px 0 0 0;
+}
+
+	#newsletter p {
+		font-size:0.7em;
+	}
+	
+	input_newsletter {
+		border:1px solid #a5a5a5;
+	}
+	
+	button {
+		height:19px;
+		font-family:'Mate';
+		font-size:0.7em;
+		color:white;
+		text-transform:uppercase;
+		letter-spacing:.1em;
+		background-color:#B49A4C;
+		border:1px solid #fff;
+	}
+
+
+
+#main-nav ul li {
+	position:relative;
+	display:inline-block;
+	margin: 0 16px 0 16px;
+	width: 70px; height:15px;
+	text-align:center;
+}
+
+	#main-nav ul {
+		text-align:center;
+		margin: 12px 0 5px 100px;
+	}
+	
+	#main-nav img {
+		width:960px;
+	}
+	
+	#main-nav ul img {
+		width: 8px;
+		height: 8px;
+		margin: 2px 0 4px 0;
+	}
+	
+	#main-nav ul li a {
+		letter-spacing:0.1em;
+		height:15px;
+	}
+
+	#main-nav ul li a:hover {
+		font-family:'Satisfy', cursive;
+		font-size:1.3em;
+		text-transform:lowercase;
+		letter-spacing:.1em;
+		color:#a5a5a5;
+	}
+	
+	#main-nav li:hover ul {
+		z-index:1000;
+		display:block;
+	}
+	
+	#main-nav li ul {
+		display:none;
+		position:absolute;
+		top:10px;
+		background-color:white;
+		text-align:left;
+		padding:10px 10px 15px 0;
+		margin-left:-10px;
+	}
+
+	#main-nav li ul li {
+		text-align:left;
+		width:100px;
+		height:20px;
+		padding:10px 0 0 0;
+	}
+
+
+#homepage-image img {
+	width:796px;
+	height:434px;
+}
+
+
+
+#content {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 82px;
+	padding:0 0 120px 0;
+}
+	
+	
+
+
+#site-footer {
+	position:absolute;
+	bottom:0;
+	width:960px; height:100px;
+	background-color:white;
+	margin:20px 0 0 0;
+}
+
+	#buttons {
+		margin:10px 0 0 90px;
+	}
+
+	#buttons ul li {
+		width:35px; height:35px;
+		float:left;
+		margin:0 5px 0 0;
+	}
+	
+	
+	#copyright {
+		float:left;
+		margin:20px 0 0 160px;
+		font-size:0.7em;
+	}
+	
+	#contact {
+		float:left;
+		margin:10px 0 0 200px;
+		font-size:0.7em;
+	}
+	
+		#contact img {
+			width:28px; height:20px;
+			margin:0 5px 0 0;
+		}
+		
+			#telephone {
+				display:block;
+			}
+			
+			#envelope {
+				display:block;
+			}
+
+
+				
+	
+/*  /////////   FOOTER IMG HOVER   /////////  */			
+a.rollover_facebook {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	background: url("images/facebook_f2.jpg");
+	}
+	
+a.rollover_twitter {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	background: url("images/twitter_bird_2.jpg");
+	}
+	
+a.rollover_tumblr {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	background: url("images/tumblr_2.jpg");
+	}
+
+a.rollover_facebook:hover {
+	background-position: -35px 0;
+	}
+	
+a.rollover_twitter:hover {
+	background-position: -35px 0;
+	}
+	
+a.rollover_tumblr:hover {
+	background-position: -35px 0;
+	}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+/*  /////////   END FOOTER IMG HOVER   /////////  */			
+
+	
+	
+			
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+    
+    
+    
+    
+    
+    
+/* ////////     EASY SLIDER PAGE    ////////   */
+    #slider {
+    	width:796px;
+    	height:434px;
+    	}
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:796px;
+		height:500px;
+		overflow:hidden; 
+		}	
+		
+	
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:200px;
+		bottom:30px;
+		z-index:1000;
+		}	
+		
+	#prevBtn {
+		position:absolute;
+		top:370px;
+		left:45px;
+		}
+		
+	#nextBtn {
+		position:absolute;
+		top:370px;
+		left:888px;
+		}
+		
+														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:25px;
+		height:25px;
+		background:url(images/arrow_toleft.jpg) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(images/arrow_toright.jpg) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		height:28px;	
+		}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#5DC9E1;
+		color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+/* ////////     END EASY SLIDER    ////////   */
+
+
+
+
+
+/* ////////     ABOUT US PAGE    ////////   */
+#about_content {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 82px;
+	padding:0 0 120px 0;
+}
+	
+#about_us {
+	position:absolute;
+	left:0; top:0;
+	width:200px; height:200px;
+	margin: 355px 0 0 660px;
+	font-size:.89em;
+}
+
+#about_us_img {
+	float:left;
+	height:434px;
+}
+	
+#about_us h1 {
+	font-weight:bold;
+	margin:0 0 10px 0;
+}
+
+#about_us h4 {
+	margin:10px 0 0 0;
+}
+
+	
+/* ////////     END ABOUT US PAGE    ////////   */
+
+
+
+
+
+
+/* ////////     CUSTOM PAGE    ////////   */
+#custom_content {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 82px;
+}
+
+#custom_img {
+	float:left;
+	height:434px;
+}
+
+#custom_text {
+	float:left;
+	width:375px;
+	margin:0 0 10px 45px;
+}
+
+
+
+
+label {display:block;}
+input_contact, textarea {display:block;}
+
+#contact_form {
+	float:left;
+	width:375px;
+	margin:0 0 25px 45px;
+}
+
+
+textarea {
+	min-width:375px; max-width:375px; 
+	max-height:80px;
+	height:80px;
+}
+
+#name_email {
+	width:200px;
+}
+
+label {
+	font-size:0.73em;
+}
+
+#custom {
+	height:19px;
+	font-family:'Mate';
+	font-size:0.7em;
+	color:white;
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	background-color:#B49A4C;
+	border:1px solid #fff;
+	margin:5px 0 0 0;
+}
+	
+#custom_content {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 82px;
+	padding:0 0 120px 0;
+}
+/* ////////     END CUSTOM PAGE    ////////   */
+
+
+
+
+/* ///////		PRINT PAGE		///////// */
+
+#jquery-lightbox {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 82px;
+}
+
+.image1,.image2,.image3,.image4 img {
+	width:70%;
+}
+
+#jquery-lightbox {
+	width:856px;
+	height:434px;
+	margin:15px 0 15px 0;
+	padding:0 0 0 0;
+}
+
+	
+/*  PRINT/PHOTO PG LIGHTBOX */
+
+	#gallery {
+		background-color:none;
+		padding: 10px;
+		width: 800px;
+		margin:0 0 0 50px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 0px solid #fff;
+		border-width: 5px 5px 5px;
+		margin:15px 0 0 15px;
+	}
+	#gallery ul a:hover img {
+		opacity:.6;
+	}
+	#gallery ul a:hover { color: #fff; }
+	
+	
+	#section1 {
+		width:800px;
+		height:165px;
+		margin:0 0 0 15px;
+	}
+	
+	#section2 {
+		width:800px;
+		height:165px;
+		margin:0 0 0 15px;
+	}
+	
+	#section3 {
+		width:800px;
+		height:165px;
+		margin:0 0 0 15px;
+	}
+	
+	#section4 {
+		width:800px;
+		height:165px;
+		margin:0 0 0 15px;
+	}
+	
+#photo_content {
+	width:856px;
+	height:825px;
+	margin:15px 0 15px 82px;
+}
+
+h3 {
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+	letter-spacing:.1em;
+	color:#B49A4C;
+}
+
+/* END PRINT/PHOTO PG LIGHTBOX */
+	
+
+/* ///////		END PRINT PAGE		///////// */
+
+
+
+
+
+/*    CONTACT PAGE   */
+
+#contact_text {
+	text-align:center;
+	margin:30px 0 0 0;
+}
+
+h1.contact {
+	color:#B49A4C;
+	margin:0 0 10px 0;
+	font-size:1em;
+	letter-spacing:.1em;
+}
+
+
+#contact_content {
+	width:856px;
+	height:470px;
+	margin:15px 0 15px 82px;
+}
